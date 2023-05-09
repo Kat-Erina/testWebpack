@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin: 0 auto;
+
+  background-color: rgb(245, 188, 196);
+  width: 80%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+main {
+  width: 80%;
+  background-color: #f7dfdf;
+  height: 90%;
+  margin: 0px auto;
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.name,
+.lastname {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 1rem;
+  height: 1.7rem;
+}
+.submit {
+  width: 13%;
+  margin-top: 1em;
+  height: 2rem;
+  border-radius: 10%;
+  background-color: #90cbdd;
+  border: none;
+  margin: 1rem auto;
+}
+.output {
+  width: 70%;
+  margin: 0 auto;
+  height: 3rem;
+  padding: 0 auto;
+}
+.submit a {
+  text-decoration: none;
+}
